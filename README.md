@@ -27,9 +27,7 @@ git push origin pemba
 
  Below are some screens shots from the application in development
 
+![ AppMuntu #1 ](https://github.com/LINOSNCHENA/Angular-Sorting-data-in-a-template-Emit/blob/master/uxViews/page1.jpg)
 ![ AppMuntu #1 ](https://github.com/LINOSNCHENA/Angular-Sorting-data-in-a-template-Emit/blob/master/uxViews/page8.jpg)
-![ AppMuntu #1 ](https://github.com/LINOSNCHENA/Angular-Sorting-data-in-a-template-Emit/blob/master/uxViews/page8.jpg)
-
-
 ![ AppMuntu #2](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page1.png)
 
