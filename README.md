@@ -23,3 +23,10 @@ ng serve ---o --port 4201
 
 git push origin pemba
 
+## Interface UX
+
+ Below are some screens shots from the application in development
+
+![ AppMuntu #1 ](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/main/uxViews/page1.png)
+![ AppMuntu #2](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/main/uxViews/page2.png)
+
