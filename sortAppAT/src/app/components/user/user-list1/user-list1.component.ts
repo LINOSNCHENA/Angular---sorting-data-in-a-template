@@ -13,10 +13,11 @@ export class UserList1Component implements OnInit {
   filterDiners: any[] = [];
 
   constructor(private userService: DinnersService,) { }
-   ngOnInit(): void {this.loadUsers();   // this.loadUsers2(); 
-       this.userService.getEstablishment().subscribe(data => { //TWO
-      })                                          
-   }
+  ngOnInit(): void {
+    this.loadUsers();   // this.loadUsers2(); 
+    this.userService.getEstablishment().subscribe(data => { //TWO
+    })
+  }
   ngOnChanges(): void {
     if (this.groupFilters1) { this.filterUserList(this.groupFilters1); }
   }

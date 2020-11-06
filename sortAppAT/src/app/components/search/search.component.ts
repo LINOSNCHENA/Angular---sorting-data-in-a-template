@@ -1,6 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
-import { DinnersService } from 'src/app/services/dinners.service';
 
 @Component({
   selector: 'app-search',
@@ -15,7 +14,7 @@ export class SearchComponent implements OnInit {
   @Output() groupFilters: EventEmitter<any> = new EventEmitter<any>();
   searchText: string = '';
 
-  constructor(private fb: FormBuilder, private userService: DinnersService) { }
+  constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void { this.buildForm(); }
 
@@ -27,15 +26,6 @@ export class SearchComponent implements OnInit {
       level: new FormControl(''),
       agefrom: new FormControl(''),
       ageto: new FormControl(''),
-
-      // namex: new FormControl(''),
-      // city: new FormControl(''),
-      // postcode: new FormControl(''),
-      // adress: new FormControl(''),
-      // starton: new FormControl(''),
-      // endon: new FormControl(''),
-
-
     });
   }
 
