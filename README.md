@@ -39,7 +39,7 @@ git push origin pemba
 
  Below are some screens shots from the application console
 
-![ M#1 ](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page1.png)
-![ M#2 ](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page2.png)
-![ M#3 ](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page3.png)
+![ M#1 ](https://github.com/LINOSNCHENA/Angular-Sorting-data-in-a-template-Emit/blob/master/uxViews/page1.jpg)
+![ M#2 ](https://github.com/LINOSNCHENA/Angular-Sorting-data-in-a-template-Emit/blob/master/uxViews/page2.jpg)
+![ M#3 ](https://github.com/LINOSNCHENA/Angular-Sorting-data-in-a-template-Emit/blob/master/uxViews/page3.jpg)
 
