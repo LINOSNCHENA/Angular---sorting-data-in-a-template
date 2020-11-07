@@ -1,0 +1,19 @@
+<table class="table table-responsive">
+    <tr>
+      <th>Room Name</th>
+      <th>Measuring</th>
+      <th>Level </th>
+      <th>In-Charge</th>
+      <th>Period #4</th>
+    </tr>
+    <tbody>
+      <tr *ngFor="let user of filterDevices | filter1: searchByKeyword1: 'name'">
+        <td>{{ user.firstName}}</td>
+        <td>{{ user.lastName}}</td>
+        <td>{{ user.level}}</td>
+        <td>{{ user.jobTitle}}</td>
+        <td>{{ user.age}}</td>
+      </tr>
+    </tbody>
+  </table>
+    

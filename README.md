@@ -1,17 +1,29 @@
-# Device, Employees and Emitters of signals
+# Devices, Administrators and Emitters list
 
-## Commands for generations
+## Execution Commands
 
-ng g c components/search
-ng g c components/user
-ng g c components/user/user-list
+This is a restful fullstact application. To use this application, move into the root folder.
 
-ng g module components/user
-ng g service services/dinners
-ng generate pipe filterpipe
+```
+ng g c components/search1
+ng g c components/search1
+ng g c components/display
+
+ng g module components/display
+
+ng g c components/display/adminslist
+ng g c components/display/devicelist
+
+ng g service services/devices
+ng g service services/admins
+
+ng generate pipe filter1
+ng generate pipe filter1
+
 ng generate module components/user/user-routing --flat --module=app
 ng serve ---o --port 4201 
 
+```
 
 ## Backend added
 
@@ -25,8 +37,9 @@ git push origin pemba
 
 ## Interface UX
 
- Below are some screens shots from the application in development
+ Below are some screens shots from the application console
 
-![ AppMuntu #1 ](https://github.com/LINOSNCHENA/Angular-Sorting-data-in-a-template-Emit/blob/master/uxViews/page8.jpg)
-![ AppMuntu #2](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page1.png)
+![ M#1 ](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page1.png)
+![ M#2 ](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page2.png)
+![ M#3 ](https://github.com/LINOSNCHENA/Angular---sorting-data-in-a-template/blob/master/uxViews/page3.png)
 

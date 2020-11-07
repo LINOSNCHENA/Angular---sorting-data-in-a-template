@@ -1,0 +1,12 @@
+<div class="container">
+  <br />
+  <h1>STATUS OF THE DEVICES #1 AND ACTIVE ADMINISTRATORS</h1>
+  <hr />
+
+  <app-search1 (groupFilters1)="filters1 = $event"></app-search1> <br />
+  <app-userlist1 [groupFilters1]="filters1" [searchByKeyword1]="searchText1"></app-userlist1>
+
+  <app-search2 (groupFilters2)="filters2 = $event"></app-search2> <br />
+  <app-userlist2 [groupFilters2]="filters2" [searchByKeyword2]="searchText2"></app-userlist2>
+  
+</div>
