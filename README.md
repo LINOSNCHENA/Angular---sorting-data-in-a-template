@@ -2,7 +2,7 @@
 
 ## Execution Commands
 
-This is a restful fullstact application. To use this application, move into the root folder.
+This is a restful full-stuch application. To use this application, move into the root folder.
 
 ```
 ng g c components/search1
@@ -20,7 +20,7 @@ ng g service services/admins
 ng generate pipe filter1
 ng generate pipe filter1
 
-ng generate module components/user/user-routing --flat --module=app
+ng generate module components/display/display-routing --flat --module=app
 ng serve ---o --port 4201 
 
 ```
